@@ -57,6 +57,7 @@ function draw(){
         textSize(35)
         fill("white")
         text("Score  " + score, width-300, 50)
+        text("Press s and space to switch",600,200);
     
     Engine.update(engine);
     //strokeWeight(4);
