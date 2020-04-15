@@ -56,7 +56,7 @@ function draw(){
         noStroke();
         textSize(35)
         fill("white")
-        text("Score  " + score, width-300, 50)
+        text("Press s and space to switch            "   +" Score  " + score, width-800, 50)
         
     
     Engine.update(engine);
